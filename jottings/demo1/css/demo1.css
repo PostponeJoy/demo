@@ -1,0 +1,15 @@
+.d1 {
+    width: 200px;
+    height: 200px;
+    border: darkgreen solid;
+    background-color: red;
+    -webkit-box-shadow: 20px 2px 5px #333333;
+    box-shadow: 20px 20px 50px #333333  outset ;
+}
+
+@media (min-width:500px) and (max-width:700px) {
+    .d1 {
+        background-color: rosybrown;
+        width: 100px;
+    }
+}
